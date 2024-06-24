@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="box">
+  <h1>UPLOAD OR GET DOCUMENT</h1>
+
+  <a href="{{ url_for('uploaddoc') }}" class="btn btn-primary btn-block btn-large"
+    >UPLOAD DOCUMENT</a
+  >
+  <a
+    href="{{ url_for('uploaddoc') }}"
+    class="btn btn -secondary btn-block btn-large"
+    >RETRIEVE DOCUMENT</a
+  >
+</div>
+
+{% endblock %}
